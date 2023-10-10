@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tabbed UI Pattern with Jikan API</title>
+</head>
+<body>
+    <div class="tab-container">
+        <div class="tab-header">
+            <button class="tab-button active" data-tab="tab1" onclick="openTab('tab1')">Overview</button>
+            <button class="tab-button" data-tab="tab2" onclick="openTab('tab2')">Characters</button>
+            <button class="tab-button" data-tab="tab3" onclick="openTab('tab3')">Episodes</button>
+        </div>
+        <div class="tab-content" id="tab1">
+            <!-- Overview content will be displayed here -->
+        </div>
+        <div class="tab-content" id="tab2">
+            <!-- Characters content will be displayed here -->
+        </div>
+        <div class="tab-content" id="tab3">
+            <!-- Episodes content will be displayed here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
